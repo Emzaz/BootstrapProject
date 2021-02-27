@@ -1,0 +1,60 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header starts */
+.navbar{
+    padding: 1% 10%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-icon{
+    color: white;
+}
+
+.navbar-brand img{
+    width: 60%;
+    height: auto;
+}
+
+.nav-link{
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: .4s;
+}
+.nav-link:hover{
+    background: #2980b9;
+    color: white;
+    transform: scale();
+}
+
+header{
+    background-image: url(Images/pexels-olia-danilevich-5088008.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-container{
+    height: 100vh;
+}
+
+.banner-container h1{
+    font-size: 3.5rem;
+    background-color: rgba(7, 101, 189, 0.8);
+    padding: 10px 20px;
+    font-family: 'Handlee', cursive;
+    border-radius: 5px;
+}
+
+/* header ends */
